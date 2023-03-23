@@ -1,0 +1,4 @@
+﻿cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 20)
+project(Homework)
+add_executable(homework main.cpp shape.cpp transform.cpp shape.h transform.h "Refactored/ShapeBase.h" "Refactored/ShapeBase.cpp" "Refactored/Line.h" "Refactored/Point.h" "Refactored/Point.cpp" "Refactored/TransformBase.h" "Refactored/Line.cpp" "Refactored/Shift.h" "Refactored/Shift.cpp" "Refactored/Scale.h" "Refactored/Scale.cpp" "Refactored/ZoomInX.h" "Refactored/ZoomInY.h" "Refactored/ZoomOut.h" "Refactored/Rectangle.h" "Refactored/Rectangle.cpp" "Refactored/SimpleShape.h" "Refactored/SimpleShape.cpp" "Refactored/Parallelepiped.h" "Refactored/Parallelepiped.cpp" "Refactored/Circle.h" "Refactored/Circle.cpp" "Refactored/Cylinder.h" "Refactored/Cylinder.cpp")
